@@ -1,65 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
 * {
-
-    flex: content;
-    align-items: center;
-}
-h1 {
-    font-size:1.5em}
-    
-body{
-    background-image:url("https://www.desktopbackground.org/p/2015/09/03/1005044_green-background-images_2560x1600_h.jpg");
-    background-repeat: no-repeat;
-    background-color:lightgreen ;
-    background-size:100%;
-    align-content: center;
-    text-align: center;
+  flex: content;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-       
+body {
+    background-image: url("https://image.freepik.com/free-vector/green-yellow-abstract-background_53876-99558.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
 }
-.container {
-    background-image: repeating-radial-gradient(rgba(157, 243, 117, 0.74),lightgreen);
-    border-radius: 35px;
-    align-content: center;
-
+.button {
+  display: flex;
+  background-color: rgb(195, 238, 4);
+  border-radius: 25px;
+  margin: auto;
+  margin-top: 2em;
+  border: none;
+  font-size: 17px;
+  text-align: center;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background 0.4s ease-in-out;
+  color: rgb(0, 0, 0);
 }
 
+.lable {
+  color: rgb(2, 2, 2);
+  display: inline-block;
+  text-align: center;
+}
+
+.button:hover {
+  background: rgb(21, 255, 0);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
 .form {
-
-
-    width: 50%;
+    background-image: linear-gradient(to bottom right,rgba(46, 243, 6, 0.993),yellow);
+    width: 75%;
     border-radius: 35px;
-    background-image: linear-gradient(to bottom right,yellow,lightgreen);
-    opacity:.8;
-    margin: auto;
-    padding: 50px;
-    align-content: center;
-    text-align: center;
+    opacity: .6
+;
+    color:black;
+ 
+  margin: auto;
+  margin-top: 10%;
+  padding: 50px;
+  
+}
+
+nav {
+  /* display: flex;
+  align-content: flex-end; */
+  margin: 0;
+  padding: 1em;
+  text-align: center;
+  background-image: linear-gradient(rgb(108, 206, 28),lightgreen);
+  color: rgb(1, 39, 3);
+}
+
+footer {
+  position: fixed;
+  height: 50px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  color: rgb(42, 102, 1);
+  background-color: #00ff73;
+  padding: 0.8em;
+  font-size: 0.5em;
 }
 input{ 
     background-color:lightsalmon;
     border-style: solid,5px,cyan;
-    opacity:1;
+    opacity:1.5;
     border-width: 3px;
     border-radius: 35px;
     align-content: center;
 
 }
-div 
- {    border-radius: 20;
-    background-image: linear-gradient(to top right,lime,lightcyan)
-    position: absolute;
-    padding: 10px;
-    display: table;
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-    top: 0;
+#ans {
+  padding: 2rem;
+  position: relative;
+  margin-top: 9rem;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 1.2em;
 }
 
+#answer {
+  display: block;
+  font-size: 0.8em;
+  display: flex;
+  position: relative;
+  margin: auto;
+  margin-bottom: auto;
+  text-align: center;
+}
+.input {
+  text-align: center;
+}
 
-@media only screen and (max-width:400px) {
-    * {
-        text-align: center;
-    }
+span {
+  text-decoration: none;
+  color:blue;
+  font-family: "Lobster";
+  display: block;
+  font-size: 2.7em;
+  padding-bottom: 0.2em;
+}
+@media only screen and (max-width: 400px) {
+  * {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 801px) {
+  .lable {
+    display: block;
+  }
+  .input {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 396px) {
+  .input {
+    width: 7em;
+  }
+}
+@media screen and (max-width: 320px), screen and (max-height: 647px) {
+  #ans {
+    margin-top: 3rem;
+  }
 }

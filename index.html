@@ -6,24 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
-    <title>Day 1</title>
+    <title>Sum Calculator</title>
 </head>
 
 <body>
-    <div class="container">       
+    <nav>
         <h1>Add Two Numbers</h1>
-        <p>
-            Developed with 💚 by Aryan &
-            <a href="https://techanalogy.org" id="foot">Tech Analogy</a>
-        </p>
-    </div>
-    <form onsubmit="add()" class="form">
-        <input type="number" id="a" placeholder="first number" />
-        <input type="number" id="b" placeholder="second number" />
-        <button type="submit">Submit</button>
+    </nav>
+    <form onsubmit="add()" class="form hero">
+        <label for="a" class="lable">First number:</label>
+        <input type="number" id="a" class="input" />
+        <label for="b" class="lable">Second number:</label>
+        <input type="number" id="b" class="input"/>
+        <button type="submit" class="button">Submit</button>
     </form>
     <p style="display: none" id="ans">Sum : <input id="answer" /></p>
     <script src="./script.js"></script>
+    <div class="footerend"><footer>
+        Developed with 🤍 by
+            <a href="https://techanalogy.org" id="foot"><span>Tech Analogy</span> </a>
+    </footer></div>
+
 </body>
 
-</html>
+</html
