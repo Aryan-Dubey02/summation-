@@ -3,29 +3,35 @@
     flex: content;
     align-items: center;
 }
-
+h1 {
+    font-size:1.5em}
+    
 body{
     background-image:url("https://www.desktopbackground.org/p/2015/09/03/1005044_green-background-images_2560x1600_h.jpg");
     background-repeat: no-repeat;
     background-color:lightgreen ;
     background-size:100%;
+    align-content: center;
+    text-align: center;
+}
 
        
 }
 .container {
-    background-image: repeating-radial-gradient(rgba(243, 243, 117, 0.575),lightgreen);
+    background-image: repeating-radial-gradient(rgba(157, 243, 117, 0.74),lightgreen);
     border-radius: 35px;
     align-content: center;
 
 }
 
 .form {
+
+
+    width: 50%;
     border-radius: 35px;
     background-image: linear-gradient(to bottom right,yellow,lightgreen);
-    border: 25px
-    border-width: 4px;
     opacity:.8;
-    margin: 50px;
+    margin: auto;
     padding: 50px;
     align-content: center;
     text-align: center;
