@@ -12,13 +12,23 @@ body{
 
        
 }
+.container {
+    background-image: repeating-radial-gradient(rgba(243, 243, 117, 0.575),lightgreen);
+    border-radius: 35px;
+    align-content: center;
+
+}
 
 .form {
     border-radius: 35px;
     background-image: linear-gradient(to bottom right,yellow,lightgreen);
+    border: 25px
+    border-width: 4px;
     opacity:.8;
     margin: 50px;
     padding: 50px;
+    align-content: center;
+    text-align: center;
 }
 input{ 
     background-color:lightsalmon;
