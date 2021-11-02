@@ -1,0 +1,52 @@
+* {
+
+    flex: content;
+    align-items: center;
+}
+
+body{
+    background-image:url("https://www.desktopbackground.org/p/2015/09/03/1005044_green-background-images_2560x1600_h.jpg");
+    background-repeat: no-repeat;
+    background-color:lightgreen ;
+    background-size:100%;
+
+       
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 35px;
+    background-image: linear-gradient(to bottom right,yellow,lightgreen);
+    opacity:.8;
+    margin: 50px;
+    padding: 50px;
+}
+input{ 
+    background-color:lightsalmon;
+    border-style: solid,5px,cyan;
+    opacity:1;
+    border-width: 3px;
+    border-radius: 35px;
+    align-content: center;
+
+}
+div 
+ {    border-radius: 20;
+    background-image: linear-gradient(to top right,lime,lightcyan)
+    position: absolute;
+    padding: 10px;
+    display: table;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    top: 0;
+}
+
+
+@media only screen and (max-width:400px) {
+    * {
+        text-align: center;
+    }
+}
