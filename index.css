@@ -64,10 +64,14 @@ body {
 nav {
   /* display: flex;
   align-content: flex-end; */
-  margin: 0;
+  border-radius: 40;
+  width: 50%;
+  margin:auto;
+  margin-top:10px;
   padding: 1em;
   text-align: center;
   background-image: linear-gradient(rgb(108, 206, 28),lightgreen);
+
   color: rgb(1, 39, 3);
 }
 
